@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "Sindrino",
+    "tagline": "Athlete. Coach. A life in motion.",
+    "heroEyebrow": "FOR THE LOVE OF THE RUN",
+    "heroTitle": "Run with purpose.\nGo beyond.",
+    "heroDescription": "From the rhythm of the track to the freedom of the mountains. Find your stride, chase your potential, and enjoy the journey.",
+    "heroImage": "assets/landscape.jpg",
+    "heroCredit": "Photo: Cole Allen / Unsplash",
+    "introEyebrow": "THE ATHLETE. THE COACH. THE HUMAN.",
+    "introTitle": "A little grit.\nA lot of heart.",
+    "introText": "Meet Sindrino Matthews: athlete, coach, and part of Must Love Hills Run Crew. From the rhythm of the track to the freedom of a mountain trail, his world is built around a love of running and the people who make every kilometre count.",
+    "introImage": "assets/photos/run-35.webp",
+    "manifestoTitle": "Your journey.\nYour pace.\nYour potential.",
+    "manifestoText": "A first start line. A new distance. A goal that feels just out of reach. There’s room for all of it here.",
+    "ctaTitle": "Let’s see where\nyour feet can take you.",
+    "ctaText": "Bring your ambition. We’ll find the next step together.",
+    "email": "",
+    "instagram": "https://www.instagram.com/_sindrino/",
+    "strava": "https://www.strava.com/athletes/53554912",
+    "enquiryURL": "https://docs.google.com/forms/d/e/1FAIpQLScYKW1ChgXey-b9AP_x4KrdPOoLj42Sx0qsL_YuXyo7ieadQQ/viewform",
+    "whatsapp": "",
+    "contactIntro": "Tell Sindrino a little about your running, what you’re working towards, and what you’d like help with.",
+    "contactHeadline": "Your next chapter\nstarts here.",
+    "contactImage": "assets/photos/run-25.webp",
+    "footerText": "Rooted in the outdoors. Driven by possibility.",
+    "homeCoachingEyebrow": "COACHING WITH INTENTION",
+    "homeCoachingTitle": "A plan for the run.\nA feel for the runner.",
+    "homeCoachingText": "Big ambitions start with a very human conversation. Explore a thoughtful approach to training, built around who you are and where you want to go.",
+    "manifestoEyebrow": "THERE IS NO ONE WAY TO BE A RUNNER",
+    "manifestoImage": "assets/photos/run-01.webp",
+    "homeJournalEyebrow": "NOTES FROM THE JOURNEY",
+    "homeJournalTitle": "A little perspective.\nA better next run."
+  },
+  "profile": {
+    "name": "Sindrino Matthews",
+    "eyebrow": "SINDRINO MATTHEWS · THE ATHLETE",
+    "headline": "Always a runner.\nAlways becoming.",
+    "intro": "Sindrino Matthews is a runner, Burnt Studios athlete, and coach with Must Love Hills Run Crew. From fast road efforts to mountain trails, this is a window into the training, the race days, and the people behind the miles.",
+    "bio": "Running is both a personal pursuit and a shared experience for Sindrino. Alongside his own training and racing, he coaches with Must Love Hills Run Crew. His story moves between road, track, and trail, with community at its heart. Explore the crew’s feature on Sindrino and follow the journey through his running links below.",
+    "image": "assets/photos/run-35.webp",
+    "disciplines": ["Trail", "Road", "Track"],
+    "benchmarkTitle": "A feel for the pace.",
+    "benchmarkNote": "Approximate running benchmarks supplied by Sindrino’s team. Exact events, dates, and official results are still to be added.",
+    "benchmarks": [
+      {"label": "Half marathon", "time": "≈ 1:15:00", "note": "21.1 km · approximate"},
+      {"label": "5 km", "time": "≈ 16:30", "note": "5 km · approximate"},
+      {"label": "Trail", "time": "More to come", "note": "Race highlights will be added as results are confirmed."}
+    ],
+    "links": [
+      {"label": "Must Love Hills feature", "url": "https://www.mustlovehillsruncrew.com/post/sindrino-matthews"},
+      {"label": "Burnt partners & athletes", "url": "https://burnt.co.za/pages/burnt-partners-athletes"},
+      {"label": "Sindrino’s running links", "url": "https://linktr.ee/_sindrino"}
+    ],
+    "achievements": [],
+    "goals": [],
+    "gallery": [
+      {"image": "assets/photos/run-56.webp", "caption": "Finding a line through the mountains", "credit": "ZACZINN · Pass2Pass 2026"},
+      {"image": "assets/photos/run-31.webp", "caption": "Back to the rhythm of the track", "credit": "Supplied photo · Outer Spaces"},
+      {"image": "assets/photos/run-11.webp", "caption": "Better with good company", "credit": "Supplied photo · Dryland Traverse 2026"}
+    ]
+  },
+  "coaching": {
+    "headline": "Built around you.\nMade for the long run.",
+    "intro": "Coach with Sindrino Matthews, a Must Love Hills Run Crew coach and athlete across road, track, and trail. Start with a conversation about your goals, your everyday life, and what keeps you coming back to running.",
+    "image": "assets/photos/run-08.webp",
+    "philosophy": [
+      {"title": "The person before the pace", "text": "Your running belongs in your life. Start with your experience, commitments, and ambitions, and build a rhythm that makes sense for you."},
+      {"title": "Consistency over heroics", "text": "Give the everyday work a purpose. Make room for easy running, focused sessions, and time to recover, rather than chasing a breakthrough every day."},
+      {"title": "Curiosity, always", "text": "Notice what works. Ask questions. Use your training feedback to keep learning and to shape the next step together."}
+    ],
+    "steps": [
+      {"title": "Start with your story", "text": "Talk about where you are now, where you want to go, and what you enjoy about running."},
+      {"title": "Give the goal a shape", "text": "Discuss your race calendar, training time, and the kind of support you’re looking for."},
+      {"title": "Build, reflect, adapt", "text": "Find a sustainable routine, reflect on the work, and make adjustments as your journey unfolds."}
+    ],
+    "sampleWeek": [
+      {"day": "MON", "title": "Reset", "description": "A pause for recovery and a look at the week ahead."},
+      {"day": "TUE", "title": "Find a rhythm", "description": "An easy run at a comfortable, conversational effort."},
+      {"day": "WED", "title": "Move with intent", "description": "A purposeful session, chosen for your experience and goal."},
+      {"day": "THU", "title": "Keep it easy", "description": "Relaxed movement and space to absorb the work."},
+      {"day": "FRI", "title": "Make space", "description": "Rest or gentle movement, according to how you feel."},
+      {"day": "SAT", "title": "Explore a little", "description": "Time outside on a familiar route or a favourite trail."},
+      {"day": "SUN", "title": "Reflect", "description": "Take stock of energy, enjoyment, and what to adjust next."}
+    ]
+  },
+  "team": {
+    "headline": "Individual journeys.\nShared ambition.",
+    "intro": "Every runner has a story worth telling. Meet the athletes, celebrate their progress, and follow what’s next.",
+    "image": "assets/photos/run-18.webp",
+    "emptyTitle": "The next chapter starts together.",
+    "emptyText": "Athlete stories are on their way. In the meantime, take the first step towards your own running goal."
+  },
+  "athletes": [],
+  "journal": {
+    "headline": "A few things\nfor the road.",
+    "intro": "Thoughts on training, preparing, and enjoying the process. Practical starting points to take into your next run."
+  },
+  "articles": [
+    {
+      "id": "fuel-the-adventure", "title": "Fuel the adventure, not just the race.", "category": "Nutrition", "readTime": "3 min", "image": "assets/photos/run-19.webp", "excerpt": "Make your long run a chance to practise the small things, including what you carry and how you fuel.", "published": true,
+      "paragraphs": ["Race day is a busy place to try something unfamiliar. Use your training to get comfortable with the food, drink, and carrying system you plan to use.", "Start with what you already tolerate. Keep a simple note of the conditions, what you took with you, and how it felt. Bring those observations to a conversation with your coach.", "Your needs depend on the person, the effort, the weather, and the event. For an individual nutrition plan, work with a qualified sports dietitian. Keep experimenting away from race day, and give yourself time to find a routine that feels familiar."]
+    },
+    {
+      "id": "a-calmer-start-line", "title": "A calmer mind at the start line.", "category": "Mindset", "readTime": "3 min", "image": "assets/photos/run-52.webp", "excerpt": "You can’t control every part of race day. A simple routine gives you something familiar to come back to.", "published": true,
+      "paragraphs": ["Write down the parts of the morning you can organise in advance: your kit, your transport, the start time, and where you need to be.", "Pick a small cue you can return to when things get noisy. It might be relaxing your shoulders, looking towards the next marker, or remembering why you signed up.", "A goal can give the day direction without defining the whole experience. Leave room to notice the people, the place, and the effort you brought to the line."]
+    },
+    {
+      "id": "make-easy-count", "title": "Let the easy days be easy.", "category": "Training", "readTime": "2 min", "image": "assets/photos/run-31.webp", "excerpt": "Give every run a purpose, including the ones where the purpose is simply to move comfortably.", "published": true,
+      "paragraphs": ["Before you head out, ask what today’s run is for. If it is an easy day, choose a route and a pace that let it stay that way.", "Treat your training notes as a conversation rather than a scorecard. Notice your energy, the conditions, and whether you could talk comfortably.", "If your plan and your body are telling different stories, tell your coach. The useful question is what helps you return ready for the next step, rather than what makes today’s numbers look impressive."]
+    },
+    {
+      "id": "race-week-checklist", "title": "Less scrambling. More starting.", "category": "Race prep", "readTime": "3 min", "image": "assets/photos/run-22.webp", "excerpt": "A little preparation helps you give your attention to the experience you came for.", "published": true,
+      "paragraphs": ["Read the organiser’s current race information. Check registration times, the route, mandatory kit, cut-offs, and any transport arrangements.", "Lay out familiar kit and make a short packing list. Check the weather forecast close to the event and adjust within the organiser’s requirements.", "Share your expected plans with someone you trust. For a trail event, know the organiser’s emergency process and carry the contact details they specify. Leave yourself enough time to arrive without rushing."]
+    }
+  ],
+  "pricing": {
+    "headline": "A goal worth chasing.\nSupport that fits.",
+    "intro": "A starting point for the next step. Explore a focused consultation, ongoing coaching, or a block built around your next race.",
+    "draft": true,
+    "draftLabel": "Proposed coaching rates · awaiting confirmation",
+    "note": "Proposed rates in South African rand. Availability, inclusions, and the final price are confirmed personally before coaching starts."
+  },
+  "plans": [
+    {"id": "foundation", "name": "Find your stride", "eyebrow": "A LITTLE DIRECTION", "price": "R450", "period": "Once-off consultation · proposed", "description": "For runners looking for clarity on their next step.", "features": ["60-minute goal-setting conversation", "Review of your current running routine", "Race and training direction discussion", "A written summary of your next steps"], "featured": false},
+    {"id": "personal", "name": "Go beyond", "eyebrow": "A JOURNEY TOGETHER", "price": "R950", "period": "Per month · proposed", "description": "For runners ready to build towards a meaningful goal with a coach.", "features": ["Individual weekly training plan", "Weekly check-in with Sindrino", "Adjustments around training and life", "Race preparation and progress reviews"], "featured": true},
+    {"id": "race", "name": "Own your start line", "eyebrow": "A GOAL IN SIGHT", "price": "R1,800", "period": "Eight-week race block · proposed", "description": "For a specific event, a new distance, or a fresh challenge.", "features": ["Eight-week plan for your target event", "Initial goal and training conversation", "Mid-block progress review", "Race-week preparation and pacing discussion"], "featured": false}
+  ],
+  "faqs": [
+    {"question": "Do I need to be fast to work with a coach?", "answer": "Start with your goal and your current experience. Use the contact page to talk about the kind of support you need and whether coaching together is a good fit."},
+    {"question": "Can we work around my life and schedule?", "answer": "Bring your work, family, and training commitments to the first conversation. They are part of understanding what a realistic training rhythm could look like."},
+    {"question": "How much does coaching cost?", "answer": "The proposed options are R450 for a once-off consultation, R950 per month for ongoing coaching, and R1,800 for an eight-week race block. These are draft rates and inclusions; Sindrino will confirm the final arrangement before coaching starts."},
+    {"question": "What should I include in my enquiry?", "answer": "Your running background, the goal or event you have in mind, your available training time, and any questions you would like to discuss."}
+  ],
+  "sponsors": [
+    {"name": "Burnt Studios", "logo": "assets/brands/burnt.png", "url": "https://burnt.co.za/"},
+    {"name": "Saucony", "logo": "assets/brands/saucony.svg", "url": "https://www.saucony.com/"},
+    {"name": "OpenFuel", "logo": "assets/brands/openfuel.png", "url": "https://za.openfuel.com/"}
+  ]
+}

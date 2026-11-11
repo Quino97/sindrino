@@ -1,0 +1,13 @@
+{
+  "name": "sindrino-running",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs",
+    "test": "node --test --experimental-test-isolation=none tests/content.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
