@@ -42,18 +42,22 @@
     "image": "assets/photos/run-35.webp",
     "disciplines": ["Trail", "Road", "Track"],
     "benchmarkTitle": "A feel for the pace.",
-    "benchmarkNote": "Approximate running benchmarks supplied by Sindrino’s team. Exact events, dates, and official results are still to be added.",
+    "benchmarkNote": "Road times are approximate benchmarks supplied by Sindrino’s team. Verified trail highlights and their source reports are listed below.",
     "benchmarks": [
       {"label": "Half marathon", "time": "≈ 1:15:00", "note": "21.1 km · approximate"},
       {"label": "5 km", "time": "≈ 16:30", "note": "5 km · approximate"},
-      {"label": "Trail", "time": "More to come", "note": "Race highlights will be added as results are confirmed."}
+      {"label": "Trail", "time": "Two wins", "note": "MUT Lite men’s champion · 2024 & 2025"}
     ],
     "links": [
       {"label": "Must Love Hills feature", "url": "https://www.mustlovehillsruncrew.com/post/sindrino-matthews"},
       {"label": "Burnt partners & athletes", "url": "https://burnt.co.za/pages/burnt-partners-athletes"},
       {"label": "Sindrino’s running links", "url": "https://linktr.ee/_sindrino"}
     ],
-    "achievements": [],
+    "achievements": [
+      {"event": "MUT by UTMB · MUT Lite", "date": "2025", "result": "1st men · 49:40", "distance": "12 km trail", "link": "https://diverge.info/2025/05/26/mut-by-utmb-records-tumble-and-women-excel-in-2025-edition/"},
+      {"event": "MUT by UTMB · MUT Lite", "date": "2024", "result": "1st men · 47:20", "distance": "11 km trail", "link": "https://diverge.info/2024/05/28/mut-by-utmb-douglas-pickard-wins-2024-title/"},
+      {"event": "Gone For Good · Lite challenge", "date": "2023", "result": "45:07", "distance": "10 km virtual trail challenge", "link": "https://protectthewestcoast.org/post/gone-for-good-2023-recap/"}
+    ],
     "goals": [],
     "gallery": [
       {"image": "assets/photos/run-56.webp", "caption": "Finding a line through the mountains", "credit": "ZACZINN · Pass2Pass 2026"},
@@ -92,7 +96,12 @@
     "emptyTitle": "The next chapter starts together.",
     "emptyText": "Athlete stories are on their way. In the meantime, take the first step towards your own running goal."
   },
-  "athletes": [],
+  "athletes": [
+    {"id": "eric-obrien", "name": "Eric O’Brien", "discipline": "Running", "headline": "One runner. A story in progress.", "bio": "Eric trains with Sindrino. Follow his running journey at @3ric0brien. His race highlights, goals, and profile photo will be added here as he shares them.", "image": "", "instagram": "https://www.instagram.com/3ric0brien/", "placeholder": false, "achievements": [], "goals": []},
+    {"id": "coming-soon-1", "name": "The next story.", "discipline": "", "headline": "A new runner. A new chapter. Details coming soon.", "bio": "", "image": "", "instagram": "", "placeholder": true, "achievements": [], "goals": []},
+    {"id": "coming-soon-2", "name": "More miles ahead.", "discipline": "", "headline": "Another individual journey to share. Details coming soon.", "bio": "", "image": "", "instagram": "", "placeholder": true, "achievements": [], "goals": []},
+    {"id": "coming-soon-3", "name": "A fresh start.", "discipline": "", "headline": "Space for the next athlete’s story. Details coming soon.", "bio": "", "image": "", "instagram": "", "placeholder": true, "achievements": [], "goals": []}
+  ],
   "journal": {
     "headline": "A few things\nfor the road.",
     "intro": "Thoughts on training, preparing, and enjoying the process. Practical starting points to take into your next run."
@@ -136,6 +145,7 @@
   "sponsors": [
     {"name": "Burnt Studios", "logo": "assets/brands/burnt.png", "url": "https://burnt.co.za/"},
     {"name": "Saucony", "logo": "assets/brands/saucony.svg", "url": "https://www.saucony.com/"},
-    {"name": "OpenFuel", "logo": "assets/brands/openfuel.png", "url": "https://za.openfuel.com/"}
+    {"name": "OpenFuel", "logo": "assets/brands/openfuel.png", "url": "https://za.openfuel.com/"},
+    {"name": "SSISA", "logo": "assets/brands/ssisa.png", "url": "https://www.ssisa.com/"}
   ]
 }

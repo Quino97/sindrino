@@ -2,14 +2,17 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {validateContent,safeURL,escapeHTML,templates} from '../lib/content.js';
+import {filterAthletes,athleteInitials} from '../lib/athletes.js';
 const original=JSON.parse(await readFile(new URL('../data/content.json',import.meta.url),'utf8'));
-test('The supplied content validates without invented athlete results',()=>{
+test('Published content validates and placeholders do not carry athlete results',()=>{
   assert.deepEqual(validateContent(original),[]);
-  assert.deepEqual(original.profile.achievements,[]);
-  assert.deepEqual(original.athletes,[]);
+  for(const athlete of original.athletes.filter(a=>a.placeholder)){
+    assert.deepEqual(athlete.achievements,[]);assert.deepEqual(athlete.goals,[]);
+  }
 });
 test('Parent athlete profiles keep independent child achievements and goals',()=>{
   const data=structuredClone(original);
+  data.athletes=[];
   const a=templates.athletes(),b=templates.athletes();a.id='first-athlete';b.id='second-athlete';
   a.achievements.push({...templates.achievements(),event:'Confirmed race',result:'1st'});
   a.goals.push({...templates.goals(),title:'A new distance'});
@@ -41,4 +44,12 @@ test('Imported or published content must retain required sections and field type
 test('Malformed list entries return validation errors rather than crashing',()=>{
   const data=structuredClone(original);data.articles=[null,null];data.plans=[null];
   assert.ok(validateContent(data).length>0);
+});
+test('Athlete filters keep coming-soon slots distinct from real runners',()=>{
+  const runner={...templates.athletes(),id:'real-runner',name:'Eric O’Brien',discipline:'Running'};
+  const slot={...templates.athletes(),id:'blank-slot',discipline:'Running',placeholder:true};
+  assert.deepEqual(filterAthletes([runner,slot],'all'),[runner,slot]);
+  assert.deepEqual(filterAthletes([runner,slot],'Running'),[runner]);
+  assert.deepEqual(filterAthletes([runner,slot],'Trail'),[]);
+  assert.equal(athleteInitials('Eric O’Brien'),'EO');
 });

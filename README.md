@@ -64,7 +64,9 @@ The editor is available to open because this is a static site. Repository write 
 4. Within that same athlete, use **Add Achievement** and **Add Goal**. Those child records belong only to that parent athlete. Add official result links where possible.
 5. Preview the roster and the athlete’s individual page, then publish.
 
-No duplicated HTML or new page component is needed. `data/content.json` is the single source of content; `app.js` renders each athlete from its parent record. Array entries can be reordered and removed in the editor.
+No duplicated HTML or new page component is needed. `data/content.json` is the single source of content; `app.js` renders each athlete from its parent record. Array entries can be reordered and removed in the editor. The Our Athletes page uses a swipeable horizontal profile list with previous/next controls. It does not move profiles automatically.
+
+Three entries are explicitly marked as coming-soon placeholders. To convert one into a real profile, open it in **Athlete profiles**, turn off **Show as an unnamed coming-soon profile**, and fill in its details. Placeholders have no public detail page, results, or goals. Eric O’Brien’s public name and Instagram URL are included; his private Instagram photos and posts were not accessed. Until a photo is supplied, his card uses initials.
 
 ### Publish directly to GitHub
 
@@ -90,7 +92,15 @@ You can also add a public email in **Home & contact → Email**. The built-in en
 
 ## Profile details and proposed prices
 
-The site owner supplied Sindrino’s full name, his Must Love Hills coaching role, Instagram handle, and approximate benchmarks of **1:15:00 for the half marathon** and **16:30 for 5 km**. These appear as approximate benchmarks, separate from official race achievements. Dates, race names, and trail results remain open; no race results or coached athletes have been invented.
+The site owner supplied Sindrino’s full name, his Must Love Hills coaching role, Instagram handle, and approximate benchmarks of **1:15:00 for the half marathon** and **16:30 for 5 km**. These remain labelled as approximate benchmarks, separate from verified trail highlights. Eric’s coaching relationship was also supplied by the owner.
+
+Race highlights checked on 13 November 2026, after the owner chose public sources because Instagram requires sign-in to read race-post captions:
+
+- **2025 MUT Lite:** 1st men, **49:40**, 12 km. Source: https://diverge.info/2025/05/26/mut-by-utmb-records-tumble-and-women-excel-in-2025-edition/
+- **2024 MUT Lite:** 1st men, **47:20**, 11 km. Source: https://diverge.info/2024/05/28/mut-by-utmb-douglas-pickard-wins-2024-title/
+- **2023 Gone For Good Lite:** **45:07**, 10 km virtual trail challenge. Source: https://protectthewestcoast.org/post/gone-for-good-2023-recap/ . This is presented as a challenge time, without an unverified placing.
+
+These source links are attached to the public results. No newer Dryland results or other unconfirmed placings have been inferred from photos.
 
 The owner requested draft pricing: **R450 once-off**, **R950 per month**, and **R1,800 for an eight-week race block**, with proposed inclusions. The public pricing page and FAQ identify these as proposals. In **Pricing page**, keep **Show proposed pricing notice** enabled until Sindrino agrees the rates and inclusions. Once confirmed, update that switch, each plan’s period text, the pricing note, and the FAQ together.
 
@@ -105,9 +115,10 @@ Public references checked on 11 November 2026:
 | File | Purpose |
 | --- | --- |
 | `data/content.json` | Page content, profile, athletes and child records, articles, plans, FAQs, partners |
-| `app.js`, `styles.css` | Shared rendering, public UI, responsive layouts |
+| `app.js`, `styles.css`, `refinements.css` | Shared rendering, public UI, responsive layouts |
 | `admin.html`, `admin.js`, `admin.css` | Content studio, drafts, import/export, GitHub publishing |
 | `lib/content.js` | Content schema validation, safe URL handling, record templates |
+| `lib/icons.js`, `lib/athletes.js` | SVG UI controls and athlete filtering helpers |
 | `assets/brand/` | Original Sindrino SVG logos and favicon |
 | `assets/photos/` | 56 optimised WebP images from the supplied archive |
 | `assets/photo-credits.json` | Mapping to original archive filenames |
@@ -123,6 +134,7 @@ All fields and profile content are public, including unpublished article data in
 - Homepage: **Cole Allen**, Glacier National Park, Grinnell Glacier Hike. Photo: https://unsplash.com/photos/2cB599inAew ; license: https://unsplash.com/license . This is a scenic visual reference, not a stated Sindrino race/training location.
 - Other photography: user-supplied Running Pics archive. Original filenames retain any available photographer credits. Pass2Pass: ZACZINN; Batrun: @sachaspex and @eringoodman_. Confirm supplied image rights and any required credits before public launch; don’t remove photographer marks.
 - Sponsor logos downloaded from the brands’ official public websites on 11 November 2026: Burnt Studios (burnt.co.za), Saucony (saucony.com), OpenFuel (za.openfuel.com). Original logo colours are preserved in the files; the website uses a CSS monochrome treatment. Trademarks remain their owners’ property. Reconfirm partner asset approval before launch.
+- SSISA was added at the owner’s request on 13 November 2026, using the official header logo from https://www.ssisa.com/hubfs/Header-Logo.png . Instagram and Strava vectors are from Simple Icons (CC0, included alongside the files) and displayed in the site palette. Brand trademarks remain their respective owners’ property.
 - Design research: https://www.run2pb.co/ (clear coaching journey), https://vert.run/ (coach/athlete connection and structured options), https://burnt.co.za/ (moving brand strip). No layouts or copy were copied.
 
 ## Verification
