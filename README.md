@@ -7,6 +7,8 @@ Svelte 5 and Vite, published as a static website on GitHub Pages. The site uses 
 - Repository: https://github.com/Quino97/sindrino
 - Change checklist: [CHANGELOG-2026-11-21.md](CHANGELOG-2026-11-21.md)
 
+See the [simple send-to-Sindrino guide](ADMIN-QUICK-START.md) for first-time access and publishing.
+
 ## Editing the website
 
 1. Open the editor. Choose a section on the left. Main copy lives in its page section; smaller headings, buttons, navigation and footer copy live in **All section text & labels**.
@@ -16,7 +18,7 @@ Svelte 5 and Vite, published as a static website on GitHub Pages. The site uses 
 5. Under **Sponsor slider**, add, remove or reorder sponsors and choose/upload their logos. Removing a sponsor removes its slider entry; existing asset files and Git history remain available.
 6. The **Substack** address and its displayed label are in **Home, brand & contact**. Empty the address to hide the link. The Google Form address and social links are there too. Only official full Google Forms viewform addresses can be embedded; other HTTPS links still open directly.
 7. Use **Export content** to back up the JSON, and **Export uploaded images** for any new image files. Keep both backups if you edit on another device. Unsaved uploads are in this browser's IndexedDB; clearing browser data removes them. Importing JSON does not import image files.
-8. At the bottom, connect to GitHub with a fine-grained personal access token for **Quino97/sindrino**, with **Contents: read and write**. The signed-in GitHub account must already have write access to this repository. Keep the default branch **main**. The token is kept only in page memory, never in drafts or browser storage. Refreshing or disconnecting clears access.
+8. At the bottom, connect to GitHub with your own GitHub personal access token. As a collaborator on this shared public repository, use a **classic token with public_repo**. The repository owner can instead use a fine-grained token with Contents: read and write. The signed-in GitHub account must already have write access to this repository. Keep the default branch **main**. The token is kept only in page memory, never in drafts or browser storage. Refreshing or disconnecting clears access.
 9. If the editor says website content has changed, export your draft, choose **Load latest content**, and reconcile your edits. It will refuse to overwrite newer content.
 10. Choose **Publish website** and review the confirmation. Text and referenced new images are committed together. **View deployment progress** opens GitHub Actions. The live website changes after the deployment succeeds. Keep your image cache until the deployment finishes, then clear it if desired.
 

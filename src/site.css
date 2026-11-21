@@ -6,3 +6,9 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-image{animation:none}.partner-track{animation:none}.partner-group:nth-child(2){display:none}.button{transition:none}.partner-window{overflow-x:auto}}
 
 .cta p:not(.eyebrow),.coaching-home-inner>div>p,.manifesto-content>p:not(.eyebrow),.profile-story p,.article-body p,.contact-aside p{font-size:16px}.filter-pill{font-size:14px!important}.plan-body{min-height:100%}
+
+/* The sponsor strip runs continuously without a separate playback control. */
+@media(prefers-reduced-motion:no-preference){.continuous-partners .partner-track,.continuous-partners:hover .partner-track,.continuous-partners:focus-within .partner-track,.continuous-partners .partner-window:hover .partner-track,.continuous-partners .partner-window:focus-within .partner-track{animation-play-state:running!important}}
+.contact-paths{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-bottom:80px}.contact-path{padding:40px;border:1px solid var(--line);display:flex;align-items:flex-start;flex-direction:column}.contact-path>p:not(.eyebrow){margin:24px 0;font-size:18px;max-width:500px}.contact-path .button{margin-top:20px}.contact-path h2{font-size:clamp(34px,3.5vw,54px)}.coaching-contact{background:var(--blue);border-color:var(--blue)}.coaching-contact .button{margin-top:auto}.contact-email{font-size:20px;border-bottom:1px solid currentColor;padding-bottom:5px;overflow-wrap:anywhere;max-width:100%}.contact-aside>img{height:500px;object-position:center 38%}
+@media(max-width:850px){.contact-paths{grid-template-columns:1fr;gap:24px;margin-bottom:55px}.contact-path{padding:32px}.contact-path>p:not(.eyebrow){font-size:17px}.coaching-contact .button{margin-top:15px}}
+@media(max-width:600px){.contact-path{padding:28px 24px}.contact-path h2{font-size:38px}.contact-email{font-size:18px}.contact-path .button{font-size:15px!important;padding-inline:18px}.intro-portrait>img{object-position:50% 38%}}

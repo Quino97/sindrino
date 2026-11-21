@@ -11,19 +11,19 @@
     "introEyebrow": "THE ATHLETE. THE COACH. THE HUMAN.",
     "introTitle": "A little grit.\nA lot of heart.",
     "introText": "Meet Sindrino Matthews: athlete and coach with Running with Wolves and Must Love Hills Run Crew. From the rhythm of cross country to the freedom of a mountain trail, his world is built around a love of running and the people who make every kilometre count.",
-    "introImage": "assets/photos/run-35.webp",
+    "introImage": "assets/photos/utct-2025-09.webp",
     "manifestoTitle": "Your journey.\nYour pace.\nYour potential.",
     "manifestoText": "A first start line. A new distance. A goal that feels just out of reach. There’s room for all of it here.",
     "ctaTitle": "Let’s see where\nyour feet can take you.",
     "ctaText": "Bring your ambition. We’ll find the next step together.",
-    "email": "",
+    "email": "sindrino030998@gmail.com",
     "instagram": "https://www.instagram.com/_sindrino/",
     "strava": "https://www.strava.com/athletes/53554912",
     "enquiryURL": "https://docs.google.com/forms/d/e/1FAIpQLScYKW1ChgXey-b9AP_x4KrdPOoLj42Sx0qsL_YuXyo7ieadQQ/viewform",
     "whatsapp": "",
-    "contactIntro": "Tell Sindrino a little about your running, what you’re working towards, and what you’d like help with.",
-    "contactHeadline": "Your next chapter\nstarts here.",
-    "contactImage": "assets/photos/run-25.webp",
+    "contactIntro": "Coaching questions, brand collaborations, partnerships, or a simple hello. There’s a place for all of it here.",
+    "contactHeadline": "Let’s start a\nconversation.",
+    "contactImage": "assets/photos/run-23.webp",
     "footerText": "Rooted in the outdoors. Driven by possibility.",
     "homeCoachingEyebrow": "COACHING WITH INTENTION",
     "homeCoachingTitle": "A plan for the run.\nA feel for the runner.",
@@ -39,9 +39,11 @@
     "substackLabel": "Read more on my Substack, Between The Strides",
     "metaTitle": "Sindrino Matthews | Athlete, coach, runner",
     "metaDescription": "Running coaching with Sindrino Matthews. Personal training, race block plans and stories from road, cross country and trail.",
-    "introImageAlt": "Sindrino Matthews running",
+    "introImageAlt": "Sindrino smiling in a relaxed portrait at UTCT",
     "manifestoImageAlt": "Runners on a South African mountain trail",
-    "contactImageAlt": "Sindrino climbing a mountain trail"
+    "contactImageAlt": "A relaxed portrait of Sindrino at the track",
+    "navName": "Sindrino",
+    "introImagePosition": "50% 38%"
   },
   "profile": {
     "name": "Sindrino Matthews",
@@ -477,7 +479,7 @@
       "athletes": "My Athletes",
       "journal": "Field notes",
       "plans": "Plans & pricing",
-      "contact": "Contact",
+      "contact": "Contact me",
       "talk": "Let’s talk"
     },
     "actions": {
@@ -573,11 +575,20 @@
       "faqTitle": "Before the\nfirst step."
     },
     "contact": {
-      "eyebrow": "GOOD THINGS START WITH A CONVERSATION",
+      "eyebrow": "CONTACT ME",
       "title": "Tell me your story.",
       "text": "Your answers go directly to Sindrino’s official Google Form.",
       "fallback": "Prefer a separate window? Open the coaching enquiry form.",
-      "embedTitle": "Sindrino coaching enquiry"
+      "embedTitle": "Sindrino coaching enquiry",
+      "generalEyebrow": "BRANDS, COLLABORATIONS & A HELLO",
+      "generalTitle": "Let’s make something\ngood happen.",
+      "generalText": "For partnerships, media, collaborations and general questions, email Sindrino directly.",
+      "emailLabel": "Email Sindrino",
+      "coachingEyebrow": "COACHING ENQUIRIES",
+      "coachingTitle": "Your running.\nYour next chapter.",
+      "coachingText": "Tell Sindrino about your running and the goals you have in mind. Use the coaching enquiry form below, or send an email if you have a quick question.",
+      "coachingAction": "Start a coaching enquiry",
+      "formTitle": "Tell me about your running."
     },
     "footer": {
       "copyright": "All strides welcome.",

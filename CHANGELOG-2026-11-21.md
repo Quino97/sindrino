@@ -68,3 +68,16 @@ This checklist covers **Sindrino_Website_Copy_Updates.docx** and the accompanyin
 - Temporary preview athlete, quote, photo upload and heading edits were reset before publication.
 
 Deployment details are reported with the live website link when the GitHub Pages workflow finishes.
+
+
+## Follow-up: contact, photography and publishing handover
+
+- Navbar wordmark shortened to **Sindrino**, with the existing athlete, coach, runner caption. Athlete biography retains his full name.
+- Sponsor play/pause control removed. The logo strip runs continuously, including while hovered or focused; reduced-motion browser preferences are respected.
+- Replaced the photo beside **A little grit. A lot of heart.** with the relaxed smiling portrait from the supplied UTCT PT55 2025 archive.
+- Added all 12 UTCT photos to the local photo library with their original filenames recorded in the photo index.
+- **Contact me** added to the main navigation and retained in the footer. The page has a general/brand enquiry panel linking to **sindrino030998@gmail.com**, alongside coaching enquiries and the official embedded Google Form.
+- Navbar **Let’s talk** still opens the official coaching form directly.
+- Added **ADMIN-QUICK-START.md**, explaining the owner invitation, Sindrino’s own GitHub publishing key and everyday editing/publishing steps.
+- Corrected the portal and documentation: collaborators on a public repository owned by someone else need a classic token with **public_repo**; fine-grained tokens remain available to the repository owner. Tokens remain in memory only.
+- Google Sheet access was checked again; it requires Google sign-in and is unavailable to the connected account. **The user asked to leave this**, so race-results extraction was deferred and the existing three verified highlights remain unchanged.
