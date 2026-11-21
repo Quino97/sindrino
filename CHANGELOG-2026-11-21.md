@@ -83,3 +83,4 @@ Deployment details are reported with the live website link when the GitHub Pages
 - Google Sheet access was checked again; it requires Google sign-in and is unavailable to the connected account. **The user asked to leave this**, so race-results extraction was deferred and the existing three verified highlights remain unchanged.
 
 - Removed the white “A LIFE IN MOTION” overlay from the relaxed homepage portrait. An empty portrait-label field now hides the label and its border.
+- Changed the navbar wordmark to uppercase **SINDRINO**.
