@@ -81,3 +81,5 @@ Deployment details are reported with the live website link when the GitHub Pages
 - Added **ADMIN-QUICK-START.md**, explaining the owner invitation, Sindrino’s own GitHub publishing key and everyday editing/publishing steps.
 - Corrected the portal and documentation: collaborators on a public repository owned by someone else need a classic token with **public_repo**; fine-grained tokens remain available to the repository owner. Tokens remain in memory only.
 - Google Sheet access was checked again; it requires Google sign-in and is unavailable to the connected account. **The user asked to leave this**, so race-results extraction was deferred and the existing three verified highlights remain unchanged.
+
+- Removed the white “A LIFE IN MOTION” overlay from the relaxed homepage portrait. An empty portrait-label field now hides the label and its border.
