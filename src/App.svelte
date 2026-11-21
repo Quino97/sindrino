@@ -43,7 +43,7 @@
 <a class="skip-link" href="#main" onclick={event=>{event.preventDefault();document.getElementById('main')?.focus({preventScroll:true});document.getElementById('main')?.scrollIntoView({behavior:'instant'});}}>Skip to content</a>
 <header id="site-header" class:solid={route !== '' || scrolled} class:menu-open={menu} class:preview-header={preview}>
   <a class="wordmark name-logo" href="#/" aria-label={s.name + ' home'}><span>{s.navName || s.name}</span><small>{s.tagline}</small></a>
-  <button class="menu-toggle" aria-label={menu ? 'Close menu' : 'Open menu'} aria-expanded={menu} aria-controls="primary-nav" onclick={() => menu = !menu}><span></span><span></span></button>
+  <button class="menu-toggle" aria-label={menu ? 'Close menu' : 'Open menu'} aria-expanded={menu} aria-controls="primary-nav" onclick={() => menu = !menu}><span></span><span></span><span></span></button>
   <nav id="primary-nav" aria-label="Main navigation">{#each routeKeys as key}<a href={'#/' + key} aria-current={route === key ? 'page' : undefined} onclick={() => menu = false}>{u.navigation[key]}</a>{/each}<a class="nav-contact" href={safeURL(s.enquiryURL)}>{u.navigation.talk}</a></nav>
 </header>
 <main id="main" tabindex="-1">
